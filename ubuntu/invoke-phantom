@@ -5,4 +5,4 @@ sed -i "s/CHANGEME/$1/" gocontainer-phantom-public/ubuntu/invoke-phantom.js
 echo invoke-phantom: Here is what the js file looks like now:
 cat gocontainer-phantom-public/ubuntu/invoke-phantom.js
 
-#phantomjs gocontainer-phantom-public/ubuntu/invoke-phantom.js &
+phantomjs gocontainer-phantom-public/ubuntu/invoke-phantom.js &
