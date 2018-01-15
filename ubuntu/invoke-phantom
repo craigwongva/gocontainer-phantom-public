@@ -1,8 +1,8 @@
 #!/bin/bash
 echo invoke-phantom: Hi, invoke-phantom reporting to duty!
 echo invoke-phantom: I am running in dir `pwd`
-sed -i "s/CHANGEME/$1/" invoke-phantom.js
+sed -i "s/CHANGEME/$1/" gocontainer-phantom-public/ubuntu/invoke-phantom.js
 echo invoke-phantom: Here is what the js file looks like now:
-cat invoke-phantom.js
+cat gocontainer-phantom-public/ubuntu/invoke-phantom.js
 
 #phantomjs gocontainer-phantom-public/ubuntu/invoke-phantom.js &
