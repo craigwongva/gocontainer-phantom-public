@@ -1,9 +1,9 @@
-echo I'm in launch-phantom starting...
+echo I'm in launch-phantom starting
 ls
 ps -ef
 /usr/bin/phantomjs invoke-phantom.js &
 sleep 10
 ps -ef
-echo I'm in launch-phantom ending...
+echo I'm in launch-phantom ending
 
 #gocontainer-phantom-public/ubuntu/invoke-phantom.js &
